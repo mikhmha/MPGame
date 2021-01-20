@@ -15,6 +15,10 @@ The next goal will be to connect this to the "actual" Desktop game client. I hav
 
 
 # 01
-After some work I was able to connect both clients to the websocket server and pass data between them. for this test, i wanted to track the position of the player in the game client  within the webclient. Objects in the 3d game client have an abstract 2d representation in the webclient. for the actual game, i am not ever going to be sending updates this frequently so I'm not concerned with optemization that much yet.  
+After some work I was able to connect both clients to the websocket server and pass data between them. for this test, i wanted to track the position of the player in the game client  within the webclient. for the actual game, i am not ever going to be sending updates this frequently so the performance now is good enough. in the gif you can also see how  objects in the 3d game client will an abstract 2d representation in the webclient. my aim is for the web client to play from the perspective of looking down at the 3d game world. 
 
 ![test2](https://user-images.githubusercontent.com/75456828/105131285-df74a780-5aa5-11eb-91ae-eb6c79696adf.gif)
+
+Getting to this part took a bit of work. My time was equally divided between working on the two clients and adding more functionality to the websocket server. After getting into some issues with tracking state in React for the web frontend, I did some googling and learned about Redux. So far I gotta say that I'm a huge fan. its exactly what I needed for this project, and its made working on the frontend much easier.
+
+an interesting problem in this project so far has been the process of transforming 3D world coordinates to their 2D canvas coordinate equivalent. The 3D level/world is centered around (0,0,0) and has a defined bounds that is initialized prior to connection. When the websocket server detects that both clients have connected, it requests the webclient to send its current window dimensions to the game client so it can initialize a copy of them and use them to compute the transformation scale factor as needed. If the webclient ever resizes during play, it sends an update message to the websocket server containing the new window coordinates, which then passes the message to the/any connected game clients.
