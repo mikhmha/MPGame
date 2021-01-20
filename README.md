@@ -24,3 +24,6 @@ Getting to this part took a bit of work. My time was equally divided between wor
 
 an interesting problem in this project so far has been the process of transforming 3D world coordinates to their 2D canvas coordinate equivalent. The 3D level/world is centered around (0,0,0) and has a defined bounds that is initialized prior to connection. When the websocket server detects that both clients have connected, it requests the webclient to send its current window dimensions to the game client so it can initialize a copy of them and use them to compute the transformation scale factor as needed. If the webclient ever resizes during play, it sends an update message to the websocket server containing the new window coordinates, which then passes the message to the/any connected game clients.This allows for the game to handle instances where the web-client player decides to resize their client during play. 
 
+
+The next goal is to implement a system within the game client that will be responsible for sending serialized level geometry to the webclient after both clients are connected, but prior to the game-start state. The webclient will create a copy of this data and use it to render 2d abstractions of the level geometry during gameplay. 
+
