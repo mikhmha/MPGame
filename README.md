@@ -3,7 +3,9 @@
 The game is presented in a different context depending on the chosen client.
 
 
-For now going to use this page as a place to doccument on-going progress. I will be posting code once I figure out a good way to organize the project.
+For now going to use this page as a place to doccument on-going progress. I will be posting code once I figure out a good way to organize the project. 
+if you have any questions or feedback for this project let me know! you can email me at mikhahmed@protonmail.com. 
+i respond  to (mostly) everything lol.
 
 # 00
 ![test](https://user-images.githubusercontent.com/75456828/104115281-f27bc080-52ca-11eb-83c0-c54c0f78bef9.gif)
