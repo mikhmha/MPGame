@@ -25,5 +25,5 @@ Getting to this part took a bit of work. My time was equally divided between wor
 
 
 # 05/02/2021 Update
-Still working on this project. Most of the recent work has been focused on the backend trying to design a good framework for coordinating the game state between the different clients. I've also been toying with the idea of allowing mutliple UE4 clients and web-clients to play together so the game can be scaled up from 1v1 to NvM. 
+Still working on this project. Most of the recent work has been focused on the backend trying to design a good framework for coordinating the game state between the different clients. I've also been toying with the idea of allowing mutliple UE4 clients and web-clients to play together so that the game can be scaled up from 1v1 to NvM. 
 
