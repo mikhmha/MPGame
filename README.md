@@ -32,3 +32,7 @@ MY PC IS DYING!!!! I smell something burning (smells like burning plastic) while
 
 kinda sucks lol. trying to see if theres anything i can do to keep it alive for longer.
 
+# update
+my pc shuts off after <10 min use so development is stopped for a bit. i ordered a new PSU hopefully that solves the issue, otherwise im pretty sure the problem is the motherboard. really hope thats not the case though cause then ill also need to get a new CPU and ram (still using DDR3). 
+
+some of the stuff ive done for this project is also being used in my HFT project so follow that if you find this project interesting. in many ways its not too different from this project but the focus is on finance data visualization rather than game stuff. Looking to get that project live soon (if new psu keeps my pc alive). 
