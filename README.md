@@ -27,10 +27,7 @@ Getting to this part took a bit of work. My time was equally divided between wor
 # 05/02/2021 Update
 Still working on this project. Most of the recent work has been focused on the backend trying to design a good framework for coordinating the game state between the different clients. I've been toying with the idea of allowing mutliple UE4 clients and web-clients to play together so that the game can be scaled up from 1v1 to NvM (UE4 clients vs Webclients). 
 
-# update
-MY PC IS DYING!!!! I smell something burning (smells like burning plastic) while its running lol. I've opened it up a couple of times to inspect but can't seem to figure out what the issue is. A friend says its probably the PSU and I agree. Ive had this PC since 2014 so I'm also not surprised. It will also randomly shut down after an hour of doing anything intensive (hosting/development/games/etc). 
 
-kinda sucks lol. trying to see if theres anything i can do to keep it alive for longer.
 
 # update
 my pc shuts off after <10 min use so development is stopped for a bit. i ordered a new PSU hopefully that solves the issue, otherwise im pretty sure the problem is the motherboard. really hope thats not the case though cause then ill also need to get a new CPU and ram (still using DDR3). 
