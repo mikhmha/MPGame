@@ -36,9 +36,10 @@ some of the stuff ive done for this project is also being used in my HFT project
 # update
 
 i haven't had much time to commit to this project. i'm still interested in working on it, though i'm in no rush. maybe one day~
+
 some more context for the game:
 - it was/is going to be a stealth/heist multiplayer game
 - the player in the browser would basically play the role of a dungeon master - they have a birds eye view of the level and can deploy/schedule resources to locate and impede the other players progress
 - other player (UE4 client) is basically playing a 3D real-time game where they have to succesfully navigate through a level while evading the watchful gaze of the dungeon master
 - the dungeon master wouldn't always have a visual on the other players location. they can utilize resources to reveal the player location for short periods of time. resources would be stuff like dropping radar in a small region for a period of time, or a full map scan. resources would be on cool downs or limited. 
-- the game would be built around latency and asynchronous gameplay. there are latency iss
+- the game would be built around latency and asynchronous gameplay 
