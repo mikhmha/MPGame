@@ -44,3 +44,9 @@ some more context for the game:
 - other player (UE4 client) is basically playing a 3D real-time game where they have to succesfully navigate through a level while evading the watchful gaze of the dungeon master
 - the dungeon master wouldn't always have a visual on the other players location. they can utilize resources to reveal the player location for short periods of time. resources would be stuff like dropping radar in a small region for a period of time, or a full map scan. resources would be on cool downs or limited. 
 - the game would be built around latency and asynchronous gameplay 
+
+# Why make one player play through browser?
+
+Technically I could just skip the browser and build the dungeon master concept in UE4. It'd be way less work, I'd be able to use the same level asset and all I'd have to do is  change the view perspective for the other player. I wouldn't have to mess around with all the extra client/server websocket stuff.
+
+The above is all very true. I decided to build this for the web instead because I thought it'd be a cool and novel idea. What I've seen with asynchronous multiplayer games is that usually one role is vastly preferred more than the other. Most players don't like playing the role of the DM (not for long atleast). By making the DM role of the game very easy to try, I figured it would help with this issue. Also I thought it'd lend to easy advertising of the game? Maybe you stumble upon the site, play as the DM a few times, and then that encourages you to download the game on steam to see what the other side is like?
