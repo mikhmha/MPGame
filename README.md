@@ -22,7 +22,7 @@ After some work I was able to connect both clients to the websocket server and p
 ![test2](https://user-images.githubusercontent.com/75456828/105131285-df74a780-5aa5-11eb-91ae-eb6c79696adf.gif)
 
 
-Getting to this part took a bit of work. My time was equally divided between working on the two clients and adding more functionality to the websocket server. After getting into some issues with tracking global state between different react components for the web frontend, I did some googling and learned about redux.
+Getting to this part took a bit of work. My time was equally divided between working on the two clients and adding more functionality to the websocket server. I also learned about Redux and have been using that to manage state for the React frontend. 
 
 
 # 05/02/2021 Update
@@ -41,9 +41,10 @@ i haven't had much time to commit to this project. i'm still interested in worki
 some more context for the game:
 - it was/is going to be a stealth/heist multiplayer game
 - the player in the browser would basically play the role of a dungeon master - they have a birds eye view of the level and can deploy/schedule resources to locate and impede the other players progress
-- other player (UE4 client) is basically playing a 3D real-time game where they have to succesfully navigate through a level while evading the watchful gaze of the dungeon master
-- the dungeon master wouldn't always have a visual on the other players location. they can utilize resources to reveal the player location for short periods of time. resources could be stuff like dropping radar in a small region for a period of time, or a full map scan. resources could be on cool downs or limited to X uses per round.
-- the game would be built around latency and asynchronous networking
+- other player (UE4 client) is basically playing a 3D real-time game where they have to succesfully navigate through a level while evading the dungeon master. the dungeon master does not have any information on the players position by default
+-  dungeon master would have abilities at their disposal to reveal the player location for short periods of time. abilities would include stuff like placing radars/motion sensors, full map scans for X seconds, and the ability to deploy ai patrols in areas of the map (would spawn ai in the game client). abilities would have cooldowns/limited uses
+- the game would try to incorporate latency as a mechanic 
+- game runs on top of UE4 dedicated server framework. dedicated server has authoratative role and prevents client-side exploits. 
 
 # Why make one player play through browser?
 
