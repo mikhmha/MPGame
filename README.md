@@ -49,7 +49,7 @@ some more context for the game:
 
 Technically I could just skip the browser and build the dungeon master concept in UE4. It'd be way less work, I'd be able to use the same level asset and all I'd have to do is  change the view perspective for the other player. I wouldn't have to mess around with all the extra client/server websocket stuff.
 
-The above is all very true. I decided to build this for the web instead because I thought it'd be a cool and novel idea. What I've seen with asynchronous multiplayer games is that usually one role is vastly preferred more than the other. Most players don't like playing the role of the DM (not for long atleast). By making the DM role of the game very easy to try, I figured it would help with this issue. 
+ I decided to build this for the web instead because I thought it'd be a cool and novel idea. What I've seen with asynchronous multiplayer games is that usually one role is vastly preferred more than the other. Most players don't like playing the role of the DM (not for long atleast). By making the DM role of the game very easy to try, I figured it would help with this issue. 
 
 Also I think it'd be effective from an advertising perspective. Say that someone stumbles upon the site, and ends up playing as the DM a few times. If they get some entertainment out if it maybe that encourages them to download the game on steam to experience the other half of it?
 
