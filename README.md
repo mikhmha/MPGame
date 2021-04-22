@@ -34,7 +34,7 @@ my pc shuts off after <10 min use so development is stopped for a bit. i ordered
 
 some of the stuff ive done for this project is also being used in my HFT project so follow that if you find this project interesting. in many ways its not too different from this project but the focus is on real-time finance data visualization rather than game stuff. Looking to get that project live soon (if new psu keeps my pc alive).
 
-# update
+# 19/04/2021 update
 
 i haven't had much time to commit to this project. i'm still interested in working on it, though i'm in no rush. maybe one day~
 
