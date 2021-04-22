@@ -36,7 +36,7 @@ some of the stuff ive done for this project is also being used in my HFT project
 
 # 19/04/2021 update
 
-i haven't had much time to commit to this project. i'm still interested in working on it, though i'm in no rush. maybe one day~
+i haven't had much time to commit to this project. i'm still interested in working on it but im not in a rush. maybe one day~
 
 some more context for the game:
 - it was/is going to be a stealth/heist multiplayer game
