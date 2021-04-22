@@ -43,8 +43,8 @@ some more context for the game:
 - the player in the browser would basically play the role of a dungeon master - they have a birds eye view of the level and can deploy/schedule abilities to locate and impede the other players progress
 - other player (UE4 client) is basically playing a 3D real-time game where they have to succesfully navigate through a level while evading the dungeon master. the dungeon master does not have any information on the players position by default
 -  dungeon master would have abilities at their disposal to reveal the player location for short periods of time. abilities would include stuff like placing radars/motion sensors, full map scans for X seconds, and the ability to deploy ai patrols in areas of the map (would spawn ai in the game client). abilities would have cooldowns/limited uses
-- the game would try to incorporate latency as a mechanic 
-- game runs on top of UE4 dedicated server framework. dedicated server has authoratative role and prevents client-side exploits. 
+- would try to incorporate latency as a mechanic 
+- runs on top of UE4 dedicated server framework. dedicated server has authoratative role and prevents client-side exploits. 
 
 # Why make one player play through browser?
 
